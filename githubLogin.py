@@ -94,6 +94,6 @@ class GithubLogin():
 if __name__ == "__main__":
     github = GithubLogin()
     # 输入自己email账号和密码
-    github.post_account(email='3297573343@qq.com', password='Syw787650')
+    github.post_account(email='*******', password='*******')
     # 验证是否登陆成功
     github.isLogin()
